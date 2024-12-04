@@ -223,7 +223,7 @@ status_command i3status
 
 bindsym Mod1+d exec "dmenu_run -nf '#AAAAAA' -nb '#000000' -sb '#00FF00' -sf '#000000' -fn 'monospace-10' -p ':3 >'"
 
-
+exec feh --bg-scale ../background.jpg
 #######################################################################
 # automatically start i3-config-wizard to offer the user to create a
 # keysym-based config which used their favorite modifier (alt or windows)
